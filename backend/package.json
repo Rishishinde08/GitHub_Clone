@@ -7,7 +7,7 @@
     "start": "node index.js start"
   },
   "keywords": [],
-  "author": "Apna College",
+  "author": "rishi shinde",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1657.0",
