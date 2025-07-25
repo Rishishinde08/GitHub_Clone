@@ -1,0 +1,326 @@
+/* GitHub Theme Colors */
+:root {
+  --github-bg: #0d1117;
+  --github-box-bg: #161b22;
+  --github-border: #30363d;
+  --github-text: #c9d1d9;
+  --github-text-light: #f0f6fc;
+  --github-primary: #238636;
+  --github-primary-hover: #2ea043;
+  --github-link: #58a6ff;
+  --github-error-bg: rgba(248, 81, 73, 0.1);
+  --github-error-border: rgba(248, 81, 73, 0.4);
+  --github-error-text: #f85149;
+}
+
+.github-login-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--github-bg);
+  padding: 16px;
+  color: var(--github-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.github-login-header {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.github-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.github-login-box {
+  width: 100%;
+  max-width: 340px;
+  padding: 24px;
+  background-color: var(--github-box-bg);
+  border: 1px solid var(--github-border);
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.github-login-title {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--github-text-light);
+}
+
+.github-login-error {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  background-color: var(--github-error-bg);
+  border: 1px solid var(--github-error-border);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--github-error-text);
+}
+
+.github-login-error svg {
+  margin-right: 8px;
+}
+
+.github-login-form {
+  margin-top: 16px;
+}
+
+.github-form-group {
+  margin-bottom: 16px;
+}
+
+.github-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.github-password-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github-forgot-password {
+  font-size: 12px;
+  color: var(--github-link);
+  text-decoration: none;
+}
+
+.github-forgot-password:hover {
+  text-decoration: underline;
+}
+
+.github-form-control {
+  width: 100%;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--github-text);
+  background-color: var(--github-bg);
+  border: 1px solid var(--github-border);
+  border-radius: 6px;
+  outline: none;
+  box-shadow: 0 0 transparent;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.github-form-control:focus {
+  border-color: var(--github-link);
+  box-shadow: 0 0 0 3px rgba(17, 88, 199, 0.3);
+}
+
+.github-login-button {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 8px;
+  background-color: var(--github-primary);
+  color: white;
+  border: 1px solid rgba(240, 246, 252, 0.1);
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.github-login-button:hover {
+  background-color: var(--github-primary-hover);
+}
+
+.github-login-button:disabled {
+  background-color: var(--github-primary);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.github-login-footer {
+  margin-top: 24px;
+  padding: 16px 0;
+  border-top: 1px solid var(--github-border);
+  text-align: center;
+  font-size: 14px;
+}
+
+.github-create-account {
+  margin: 0;
+}
+
+.github-signup-link {
+  color: var(--github-link);
+  text-decoration: none;
+}
+
+.github-signup-link:hover {
+  text-decoration: underline;
+}
+
+.github-footer-links {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.github-footer-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.github-footer-links li {
+  margin: 0 8px;
+}
+
+.github-footer-links a {
+  color: var(--github-link);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.github-footer-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .github-login-box {
+    padding: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* //------------------------------------ */
+
+/* GitHub Signup Specific Styles */
+.github-signup-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--github-bg);
+  padding: 16px;
+  color: var(--github-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.github-signup-header {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.github-signup-box {
+  width: 100%;
+  max-width: 340px;
+  padding: 24px;
+  background-color: var(--github-box-bg);
+  border: 1px solid var(--github-border);
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.github-signup-title {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--github-text-light);
+}
+
+.github-signup-error {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  background-color: var(--github-error-bg);
+  border: 1px solid var(--github-error-border);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--github-error-text);
+}
+
+.github-signup-error svg {
+  margin-right: 8px;
+}
+
+.github-signup-form {
+  margin-top: 16px;
+}
+
+.github-password-hint {
+  font-size: 12px;
+  color: var(--github-text);
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.github-signup-button {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 16px;
+  background-color: var(--github-primary);
+  color: white;
+  border: 1px solid rgba(240, 246, 252, 0.1);
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.github-signup-button:hover {
+  background-color: var(--github-primary-hover);
+}
+
+.github-signup-button:disabled {
+  background-color: var(--github-primary);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.github-signup-footer {
+  margin-top: 24px;
+  padding: 16px 0;
+  border-top: 1px solid var(--github-border);
+  text-align: center;
+  font-size: 14px;
+}
+
+.github-login-prompt {
+  margin: 0;
+}
+
+.github-login-link {
+  color: var(--github-link);
+  text-decoration: none;
+}
+
+.github-login-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .github-signup-box {
+    padding: 16px;
+  }
+}
